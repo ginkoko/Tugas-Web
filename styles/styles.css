@@ -1,0 +1,102 @@
+
+header {
+    background-color: burlywood;
+    color: #fff;
+    text-align: left;
+    padding: 1em;
+}
+
+body {
+    font-family: 'Playpen Sans', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+.BoxCeritaContainer{
+    flex-wrap: wrap;
+    display: flex;
+}
+.BoxCerita{
+    width: 220px;
+    margin: 20px;
+    height: 250px;
+    border: 3px solid skyblue;
+    border-radius: 5%;
+    background-color: skyblue;
+    
+}
+
+.BoxCerita1{
+    min-height: 300px;
+
+}
+
+.BoxCerita2{
+    min-height: 200px;
+
+}
+
+.BoxCerita3{
+    min-height: 200px;
+
+}
+
+.story {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.BoxCerita1 > img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.BoxCerita2 > img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    padding: 0px;
+    margin: 0px;
+}
+
+footer {
+    background-color: burlywood;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+#LegendaDanauToba{
+    text-align: center;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: midnightblue;
+    margin: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#TobaThumbnail{
+    padding: 9px;
+    padding-top: 0px;
+    height: 230px;
+    width: 200px;
+}
+
+/* CERITA 1 DANAU TOBA*/
+
