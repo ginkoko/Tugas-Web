@@ -3,34 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
     <link rel="stylesheet" href="./styles/styles.css">
     <title>BacaCerita</title>
+    <link rel="icon" type="image/x-icon" href="./assets/icon/web-icon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Playpen+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 <body>
     <header>
-        <h1>BacaCerita</h1>
+        <div id="logo">
+            <img src="./assets/image/logo-no-background.png">
+        </div>
+        <div class="navbar">
+            <a href="./index.html"><h2>Beranda</h2></a>
+            <a href="./public/ceritalokal.html"><h2>Cerita Lokal</h2></a>
+            <a href="./public/ceritaluar.html"><h2>Cerita Luar</h2></a>
+            <a href="./public/aboutus.html"><h2>About Us</h2></a>
+        </div>
+        
     </header>
     <main>
-        <div class="BoxCeritaContainer">
-            <div class="BoxCerita BoxCerita1">
-                <a href="public/cerita1.html">
-                    <figcaption id="LegendaDanauToba">Legenda Danau Toba</figcaption>
-                    <img id="TobaThumbnail" src="./assets/image/Toba2.jpg">
+        <section class="welcome">
+            <h1>Selamat Datang Di <font color ="a1daaf">BacaCerita</font></h1>
+            <P>Kami adalah teman setia bagi petualangan literasi anak-anak. Di sini, kami mengundang Anda untuk mengeksplorasi dunia cerita yang penuh keceriaan, warna, dan belajar. Bersama-sama, mari kita hadirkan kebahagiaan melalui setiap halaman, dan bersiaplah untuk menikmati momen-momen ajaib bersama "BacaCerita". Selamat membaca!</P>
+        </section>
+        <form>
+            <div class="search">
+                <span class="material-symbols-outlined">search</span>
+                <input class="search-input" type="search" placeholder="Cari Cerpen">
+            </div>
+        </form>
+        
+        <section class ="Cerita-anak-lokal">
+                <h2>Cerita Anak Lokal</h2>
+            
+            <div class="BoxCeritaContainer">
+                <div class="BoxCerita BoxCerita1">
+                    <a href="public/cerita1.html">
+                        <figcaption id="LegendaDanauToba">Legenda Danau Toba</figcaption>
+                        <img id="TobaThumbnail" src="./assets/image/Toba2.jpg">
+                    </a>
+                
+                </div>
+                <div class="BoxCerita BoxCerita2">
+                    <a href="public/cerita2.html">   
+                        <figcaption id="SiKancilDanBuaya">Si Kancil Dan Buaya</figcaption>
+                        <img id="KancilThumbnail" src="./assets/image/kancil&buaya.jpg">
+                    </a> 
+                </div>
+
+                <div class="BoxCerita BoxCerita3">
+                    <a href="public/cerita3.html">
+                        <figcaption id="gagakdankendiair">Gagak Dan Kendi Air</figcaption>
+                        <img id="GagakThumbnail" src="./assets/image/Gagak dan Kendi Air.png">
+                    </a>
+                </div>
+                
+            </div>
+            <div class="showmore1">
+                <a href="./public/ceritalokal.html"><p>Tampilkan lebih banyak...</p></a>
+            </div>
+            
+        </section>
+
+        <section class ="Cerita-anak-luar">
+            <h2>Cerita Anak Luar</h2>
+        
+        <div class="BoxCeritaContainer2">
+
+            <div class="BoxCerita2_0 BoxCerita4">
+                <a href="public/ceritai1paqih.html">
+                    <figcaption id="bluebelldancerminajaib">Bluebell & Cermin ajaib</figcaption>
+                    <img id="bluebellthumbnail" src="./assets/image/bluebelldancerminajaib.jpg">
                 </a>
             </div>
-            <div class="BoxCerita BoxCerita2">
-               
-            </div>
-            <div class="BoxCerita BoxCerita3"></div>
 
+            <div class="BoxCerita2_0 BoxCerita5">
+                <a href="public/ceritai2paqih.html">
+                    <figcaption id="kacangpolong">Putri & Kacang Polong</figcaption>
+                    <img id="kacangpolongthumbnail" src="./assets/image/kacangpolong.jpg">
+                </a>
+            </div>
+
+            <div class="BoxCerita2_0 BoxCerita6">
+                <a href="public/ceritai3paqih.html">
+                    <figcaption id="jackdanpohon">Jack & Pohon Kacang</figcaption>
+                    <img id="jackdanpohonthumbnail" src="./assets/image/jackdanpohonkacang.jpg">
+                </a>        
+                
+            </div>
+            
         </div>
-       
+        <div class="showmore2">
+            <a href="./public/ceritaluar.html"><p>Tampilkan lebih banyak...</p></a>
+        </div>
+        
+    </section>
+        <footer>
+            <p>&copy; 2024 Kelompok 3. All rights reserved.</p>
+        </footer>
     </main>
-    <footer>
-        <p>&copy; BacaCerita</p>
-    </footer>
+   
 </body>
 </html>
