@@ -1,0 +1,247 @@
+header {
+    background-color: #fff;
+    padding: 1em;
+}
+#logo{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+#logo > img{
+    resize: none;
+    width: 75%;
+    height: 100%;
+}
+header > .navbar {
+    flex-wrap: wrap;
+    display: flex;
+    padding-left: 1em;
+    position: relative;
+    padding-left: 6%;
+    padding-right: 2%;
+}
+header > div a > h2{
+    color: black;
+    text-decoration: none;
+    left: 50%;
+    padding: 5px;
+    font-size: 1em;
+}
+header > div a > h2:hover{
+    color: #a1daaf;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    background-image: url('/assets/image/Background.jpg');
+    background-position: center;
+    background-size: cover;
+}
+@keyframes fade-down{
+    0%{
+        opacity: 0;
+        transform: translateY(-30px) scale(0.9);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0) scale(1); 
+    }
+    
+}
+section {
+    max-width: 85%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: lightgoldenrodyellow;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fade-down 0.5s;
+}
+.welcome{
+    max-width: 83%;
+    text-align: left;
+}
+.welcome > h1{
+    position: relative;
+    left: 2%;
+    font-size: 1.5em;
+    
+}
+.welcome > p{
+    position: relative;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 18px;
+    text-align: justify;
+    text-align-last: left;
+}
+footer {
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+
+.Cerita-anak-lokal {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+.Cerita-anak-lokal > h2 {
+    padding-left: 1%;
+}
+
+.BoxCeritaContainer{
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.BoxCerita{
+    width: 220px;
+    margin: 8px;
+    height: 250px;
+    border: 3px solid #a1daaf;
+    background-color: #a1daaf;
+}
+
+.BoxCerita1{
+    min-height: 300px;
+}
+
+.BoxCerita2{
+    min-height: 300px;
+}
+
+.BoxCerita3{
+    min-height: 300px;
+}
+
+.BoxCerita4{
+    min-height: 300px;
+}
+
+.BoxCerita5{
+    min-height: 300px;
+}
+
+.BoxCerita6{
+    min-height: 300px;
+}
+
+.BoxCerita7{
+    min-height: 300px;
+}
+
+.BoxCerita8{
+    min-height: 300px;
+}
+.BoxCerita9{
+    min-height: 300px;
+}
+.BoxCerita10{
+    min-height: 300px;
+}
+.BoxCerita11{
+    min-height: 300px;
+}
+.BoxCerita12{
+    min-height: 300px;
+}
+/*thumbnail dan foto*/
+#LegendaDanauToba{
+    text-align: center;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    margin: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#TobaThumbnail{
+    padding: 9px;
+    padding-top: 0px;
+    height: 230px;
+    width: 200px;
+}
+#SiKancilDanBuaya{
+    text-align: center;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    margin: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#KancilThumbnail{
+    padding: 9px;
+    padding-top: 0px;
+    height: 230px;
+    width: 200px;
+}
+#gagakdankendiair{
+    text-align: center;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    margin: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#GagakThumbnail {
+    padding: 9px;
+    padding-top: 0px;
+    height: 230px;
+    width: 200px;
+}
+#batuthumbnail {
+    padding: 9px;
+    padding-top: 0px;
+    height: 210px;
+    width: 200px;
+}
+.search{
+    --padding: 14px;
+
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: var(--padding);
+    border: solid 3px #a1daaf;
+    border-radius: 28px;
+    background: white;
+    width: 250px;
+    position: relative;
+    left: 1%;
+}
+
+.search-input{
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: #333333;
+    margin-left: var(--padding);
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 300px;
+    flex: 1;
+}
+
+.yaboi{
+    padding-bottom: 20px;
+}

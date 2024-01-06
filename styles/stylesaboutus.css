@@ -1,0 +1,107 @@
+header {
+    background-color: #fff;
+    padding: 1em;
+}
+#logo{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+#logo > img{
+    resize: none;
+    width: 75%;
+    height: 100%;
+}
+header > .navbar {
+    flex-wrap: wrap;
+    display: flex;
+    padding-left: 1em;
+    position: relative;
+    padding-left: 6%;
+    padding-right: 2%;
+}
+header > div a > h2{
+    color: black;
+    text-decoration: none;
+    left: 50%;
+    padding: 5px;
+    font-size: 1em;
+}
+header > div a > h2:hover{
+    color: #a1daaf;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    background-image: url('/assets/image/Background.jpg');
+    background-position: center;
+    background-size: cover;
+}
+@keyframes fade-down{
+    0%{
+        opacity: 0;
+        transform: translateY(-30px) scale(0.9);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0) scale(1); 
+    }
+    
+}
+section {
+    max-width: 85%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: lightgoldenrodyellow;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fade-down 0.5s;
+}
+.welcome{
+    max-width: 83%;
+    text-align: left;
+}
+.welcome > h1{
+    position: relative;
+    left: 2%;
+    font-size: 1.5em;
+    
+}
+.welcome > p{
+    position: relative;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 18px;
+    text-align: justify;
+    text-align-last: left;
+}
+footer {
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+
+.namaanggota{
+    max-width: 83%;
+    text-align: left;
+    background-color: #edb3f0;
+}
+
+.namaanggota > p{
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 18px;
+    text-align: justify;
+    text-align-last: left;
+}

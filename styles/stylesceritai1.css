@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #a1daaf;
+    background-color: #edb3f0;
     margin: 0;
     padding: 0;
 }
@@ -37,7 +37,7 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-#gambartoba {
+#gambar {
     width: 60%;
     height: 40%;
     display: block;
